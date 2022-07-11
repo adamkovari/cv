@@ -12,7 +12,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
   const [showPic, setShowPic] = React.useState(Boolean(link));
 
   React.useEffect(() => {
-    if (link && pictureLinkRegex.test(link)) {
+    if (link && !pictureLinkRegex.test(link)) {
       handleRequest();
     } else {
       setProfilePicUrl(link);
@@ -28,7 +28,6 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
       setProfilePicUrl(response.data.graphql.user.profile_pic_url_hd);
     } catch (error) {
       setShowPic(false);
-      console.log("repa2");
       console.error(error.message);
     }
   };
@@ -43,7 +42,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
                 className="border border-secondary rounded-circle"
                 src={profilePicUrl}
                 alt="profilepicture"
-                width={imgSize}
+                width={imgSize*0.8}
                 height={imgSize}
               />
             )}

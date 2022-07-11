@@ -47,7 +47,7 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: "kovari.adi",
+  imageLink: require("../assets/img/avatar.jpeg"),
   imageSize: 375,
   message:
     "Hi, My name is Ádám Kővári. I have been studying Software Engineering at Budapest University of Technology for 1,5 years after I had graduated as Electrical Engineer. I am passionate about software development especially for web development, but I am interested in IoT and AI innovations, hardver reparations and in the world of Startups. In brief in anything which is connected with technology.",
