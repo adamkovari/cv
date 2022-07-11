@@ -51,7 +51,7 @@ const about = {
   imageSize: 375,
   message:
     "Hi, My name is Ádám Kővári. I have been studying Software Engineering at Budapest University of Technology for 1,5 years after I had graduated as Electrical Engineer. I am passionate about software development especially for web development, but I am interested in IoT and AI innovations, hardver reparations and in the world of Startups. In brief in anything which is connected with technology.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+  resume: require("../editable-stuff/resume.pdf"),
 };
 
 // PROJECTS SECTION
