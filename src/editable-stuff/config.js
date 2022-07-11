@@ -6,30 +6,26 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
-  middleName: "",
-  lastName: "Shoaib",
+  firstName: "Ádám",
+  middleName: "Zsolt",
+  lastName: "Kővári",
   message: " Passionate about changing the world with technology. ",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
+      url: "https://github.com/adamkovari",
     },
     {
       image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
+      url: "https://www.facebook.com/adam.kovari.7/",
     },
     {
       image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://www.instagram.com/kovari.adi/",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/adam-kovari/",
     },
   ],
 };
@@ -51,10 +47,10 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: "kovari.adi",
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
+    "Hi, My name is Ádám Kővári. I have been studying Software Engineering at Budapest University of Technology for 1,5 years after I had graduated as Electrical Engineer. I am passionate about software development especially for web development, but I am interested in IoT and AI innovations, hardver reparations and in the world of Startups. In brief in anything which is connected with technology.",
   resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 };
 
@@ -66,7 +62,7 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
+  gitHubUsername: "adamkovari", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],
 };
@@ -100,22 +96,30 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
+    { name: "HTML/CSS", value: 90 },
+    { name: "Laravel", value: 85 },
+    { name: "Vapor", value: 75 },
+    { name: "Amazon AWS", value: 55 },
+    { name: "JavaScript", value: 70 },
+    { name: "Node", value: 75 },
     { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
+    { name: "Meteor", value: 60 },
+    { name: "Vue", value: 60 },
     { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
     { name: "C#", value: 80 },
+    { name: "Java", value: 70 },
+    { name: "Git Workflow", value: 80 },
+    { name: "Illustrator", value: 80 },
+    { name: "Photoshop", value: 70 },
+    { name: "After Effects", value: 60 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
     { name: "Collaboration", value: 90 },
     { name: "Positivity", value: 75 },
     { name: "Adaptability", value: 85 },
+    { name: "Thirst for Knowledge", value: 100 },
     { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
     { name: "Organization", value: 70 },
     { name: "Creativity", value: 90 },
   ],
@@ -126,23 +130,23 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm currently looking for full-time Full-stack, Back-end or Front-end developer opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "adam.kovari@schdesign.hu",
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: '3D Artist',
+      companylogo: require('../assets/img/geolink_logo.svg'),
+      date: 'September 2017 – May 2018',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Full-stack Developer', company_name: 'MazeSoft Technologies',// Here Add Company Name
+      companylogo: require('../assets/img/maze_logo_white.svg'),
+      date: 'October 2020 – June 2022',
     },
   ]
 }
