@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cv/static/css/main.3814bce2.chunk.css",
+    "main.css": "/cv/static/css/main.e6414cfa.chunk.css",
     "main.js": "/cv/static/js/main.a116b80c.chunk.js",
     "main.js.map": "/cv/static/js/main.a116b80c.chunk.js.map",
     "runtime-main.js": "/cv/static/js/runtime-main.7b1a339b.js",
@@ -8,9 +8,9 @@
     "static/js/2.cfafeff4.chunk.js": "/cv/static/js/2.cfafeff4.chunk.js",
     "static/js/2.cfafeff4.chunk.js.map": "/cv/static/js/2.cfafeff4.chunk.js.map",
     "index.html": "/cv/index.html",
-    "precache-manifest.d2807e36cba938be51d15ca6cd68d5e8.js": "/cv/precache-manifest.d2807e36cba938be51d15ca6cd68d5e8.js",
+    "precache-manifest.021912b4eeafe5e486b42e9ff95a66ac.js": "/cv/precache-manifest.021912b4eeafe5e486b42e9ff95a66ac.js",
     "service-worker.js": "/cv/service-worker.js",
-    "static/css/main.3814bce2.chunk.css.map": "/cv/static/css/main.3814bce2.chunk.css.map",
+    "static/css/main.e6414cfa.chunk.css.map": "/cv/static/css/main.e6414cfa.chunk.css.map",
     "static/js/2.cfafeff4.chunk.js.LICENSE.txt": "/cv/static/js/2.cfafeff4.chunk.js.LICENSE.txt",
     "static/media/avatar.jpeg": "/cv/static/media/avatar.451b1587.jpeg",
     "static/media/geolink_logo.svg": "/cv/static/media/geolink_logo.6b3beb72.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.7b1a339b.js",
     "static/js/2.cfafeff4.chunk.js",
-    "static/css/main.3814bce2.chunk.css",
+    "static/css/main.e6414cfa.chunk.css",
     "static/js/main.a116b80c.chunk.js"
   ]
 }
