@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6c2d80428fe42573ee3f76b22a70d675",
+    "revision": "854cea1f1481f1207795746310f9311f",
     "url": "/cv/index.html"
   },
   {
-    "revision": "6fa212265f31e43680e1",
+    "revision": "21cd8d22a84a275f4d70",
     "url": "/cv/static/css/main.e6414cfa.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cv/static/js/2.cfafeff4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6fa212265f31e43680e1",
-    "url": "/cv/static/js/main.a116b80c.chunk.js"
+    "revision": "21cd8d22a84a275f4d70",
+    "url": "/cv/static/js/main.3b80c296.chunk.js"
   },
   {
     "revision": "b5c9e66b30104e830b37",
@@ -36,7 +36,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cv/static/media/maze_logo_white.bf27938c.svg"
   },
   {
-    "revision": "0e102e821f9e3a5308c69329aba6ac5f",
-    "url": "/cv/static/media/resume.0e102e82.pdf"
+    "revision": "d9e2e7a6a49df2222006b471bead507b",
+    "url": "/cv/static/media/resume.d9e2e7a6.pdf"
   }
 ]);
